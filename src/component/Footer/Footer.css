@@ -1,0 +1,151 @@
+.footer {
+
+  
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  background-color: #002d9e;
+  .conatiner {
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+  }
+  
+  .tital {
+    color: #ffc972;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .para, 
+  .director {
+    display: flex;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+  } 
+.loc-icon,
+.dir-icon {
+  font-size: 25px;
+  padding: 0px 1px;
+}
+.link ul li {
+  text-decoration: none !important;
+  color: white !important;
+}
+.link ul li a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.link ul {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+.link ul {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ gap: 1.5rem;
+ text-decoration: none;
+}
+
+@media (min-width:400px)
+{
+  .link ul li a{
+    list-style: none;
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .link ul li{
+    text-decoration: none !important;
+    color: white !important;
+    list-style: none
+  }
+  .left, .right {
+    padding: 1.5rem !important;
+  }
+  
+}
+
+
+
+
+@media screen and (min-width: 550px) and (max-width: 750px) {
+
+  .conatiner {
+    padding: 22px;
+    gap: 0rem;
+  }
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .conatiner {
+    gap: 2rem !important;
+  }
+}
+  
+
+@media screen and (max-width: 350px) {
+  .link ul li a{
+    
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .left, .right {
+    padding: 1.5rem !important;
+  }
+  .conatiner {
+      flex-direction: column;
+      gap:0rem;
+  }
+}
+
+
+
+
+@media screen and (min-width: 340px) and (max-width: 550px) {
+  
+  
+  .conatiner {
+    flex-direction: column;
+    padding: 0px 45px;
+    gap: 3rem;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+  }
+  
+  
+}
+
+
+}
+.link ul li a{
+  text-decoration: none !important;
+  color: rgb(208, 255, 0) !important;
+}
+.link ul li {
+  list-style: none;
+}
+.right {
+  margin-top: 2rem;
+}

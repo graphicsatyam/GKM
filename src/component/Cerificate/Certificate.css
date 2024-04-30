@@ -1,0 +1,29 @@
+.all_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.certificates {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.certificates img{
+    width:77%
+}
+
+
+@media (max-width: 768px) {
+    .all_images {
+flex-direction: column;
+gap: 2rem;
+    }
+    .certificates img{
+        width:57%
+            
+    }
+}
+
